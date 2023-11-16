@@ -79,3 +79,18 @@ ul li {
 .fin li:nth-child(even) {
     background-color: rgba(30, 193, 35, 0.6);
 }
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: white;
+    border: 2px solid blueviolet;
+}
+
+
+input[type="checkbox"]:checked + span::after {
+    border: 8px;
+
+}
